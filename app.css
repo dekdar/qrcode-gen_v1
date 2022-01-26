@@ -1,28 +1,19 @@
-/* ----------------css---------------------------------- */
-/* กำหนดหน้า สังปริ้น */
-@page{
+/*กำหนดหน้า*/
+@page {
   size: Auto;
   margin: 0;
 }
-/* --------------------------------------------------------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* --------------------------------bg---------------------------------------------------------------------------------- */
-body {
+/*bg*/
   /* background-image: linear-gradient(to right top, #d651c5, #c75ed0, #b86ad9, #a873e0, #977ce4, #8688ed, #7594f3, #649ef6, #51affc, #47befe, #4dccfd, #5fd9fb); */
-  background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
   /* background-image: url('xxxx'); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
-/* ------------------------------------------------------------------------------------------------------------------------------------------ */
-
-body {
+/*body*/
+  body {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
@@ -31,14 +22,28 @@ body {
 }
 
 .form {
-  font-family: 'Itim', cursive;
+  font-family: "Itim", cursive;
   padding: 25px;
   border-radius: 30px;
   width: 350px;
   border: 1px solid rgb(255, 255, 255);
   /* background: rgb(255, 255, 255); */
   /* background-color: rgb(186 85 211); */
-  background-image: linear-gradient(to right top, #d651c5, #c75ed0, #b86ad9, #a873e0, #977ce4, #8688ed, #7594f3, #649ef6, #51affc, #47befe, #4dccfd, #5fd9fb);
+  background-image: linear-gradient(
+    to right top,
+    #d651c5,
+    #c75ed0,
+    #b86ad9,
+    #a873e0,
+    #977ce4,
+    #8688ed,
+    #7594f3,
+    #649ef6,
+    #51affc,
+    #47befe,
+    #4dccfd,
+    #5fd9fb
+  );
 }
 .form-control {
   margin-bottom: 50px;
@@ -47,7 +52,6 @@ body {
 #print {
   margin-bottom: 20px;
 }
-
 
 .form-control input {
   padding: 10px;
@@ -72,11 +76,10 @@ body {
   border-radius: 15px;
 }
 
-#print{
+#print {
   display: none;
   visibility: none;
 }
-
 
 #print {
   display: block;
@@ -88,8 +91,6 @@ body {
   border: 0;
   border-radius: 15px;
 }
-
-
 
 #img {
   width: 98%;
