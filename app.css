@@ -5,15 +5,16 @@
 }
 
 /*bg*/
+body {
   /* background-image: linear-gradient(to right top, #d651c5, #c75ed0, #b86ad9, #a873e0, #977ce4, #8688ed, #7594f3, #649ef6, #51affc, #47befe, #4dccfd, #5fd9fb); */
-  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
   /* background-image: url('xxxx'); */
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
 /*body*/
-  body {
+ body {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
