@@ -4,7 +4,7 @@ const qrImg = document.getElementById("img");
 
 function downloadImage(){
     var input = document.getElementById("data").value;
-    var name = "QR "
+    var name = "krooBachz"
     var url = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+input
       fetch(url)
         .then(resp => resp.blob())
